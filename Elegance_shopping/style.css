@@ -1,0 +1,1014 @@
+/* -----------------------------------------------------UNIVERSAL MEASURINGS------------------------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+h6 {
+    color: #f7e9e9;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(126, 62, 245, 0.876);
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+
+hr {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(194, 22, 238);
+    opacity: 0.5;
+}
+
+button:hover {
+    background-color: rgba(251, 26, 251, 0.725);
+    font-size: 0.81rem;
+}
+
+
+.star {
+    color: goldenrod;
+
+}
+
+
+
+.bstar {
+    color: rgb(37, 35, 35);
+}
+
+
+
+
+
+
+/* CUSTOMISING THE CSS SECTION STARTS FROM HERE */
+
+/* ------------------------------------NAVBAR STARTS FROM HERE------------------------------------------------------------------*/
+
+.navbar {
+    background-color: rgb(24, 24, 24) !important;
+    font-size: 16px;
+    box-shadow: 1px 1px 4px rgb(190, 91, 243);
+}
+
+
+.navbar-light .navbar-nav .nav-link,
+.navbar i {
+    padding: o 15px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.navbar li {
+    padding-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(249, 74, 246);
+}
+
+
+
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+
+}
+
+.navbar i:hover,
+.navbar i.active {
+    color: rgb(90, 107, 233);
+}
+
+
+.navbar ul {
+    margin-left: 45%;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+
+
+
+
+.navbar-toggler:hover {
+    background-color: rgba(35, 35, 43, 0.078);
+}
+
+#bar {
+    font-size: 1.5rem;
+    padding: 0px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+
+#bar:hover {
+    color: rgb(196, 107, 240);
+}
+
+
+
+
+
+#navbarSupportedContent>ul> {
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 60%;
+}
+
+
+
+.searchh{
+   height:30px;
+   background-color: #1c1b1c;
+   border-style: none;
+   
+}
+
+.searchh:hover{
+    background-color: #2f1936;
+}
+
+
+
+
+/* ---------------------------------NAVBAR ENDS HERE-------------------------------------------------------------------------- */
+
+/* --#-#_#_#_#_#_#######_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#__#######_#_#_#_#_#_#_#_#_#_#_###########_#_#_#_#_#_#_#_#######_#_#_# */
+
+/* ------------------HOME BANNER STARTS FROM HERE-------------------------------- */
+
+
+
+#home span {
+    color: rgb(243, 8, 251);
+}
+
+
+#home {
+    background-image: url("./images/img/karosel_4.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 40px center;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 6px 90px rgb(4, 0, 6);
+
+
+}
+
+
+.textofhome h1 {
+    color: rgb(248, 240, 240);
+}
+
+.textofhome p {
+    color: pink;
+}
+
+
+/* ------------------------------------------BRANDS LOGO SECTION - 1---------------------------------------------------- */
+
+
+
+#brand img {
+    transition: 0.2s;
+    background-image: url('./images/img/elegant_low_opacity_image.png');
+    background-attachment: scroll;
+
+}
+
+
+
+#brand img:hover {
+    opacity: 1.1;
+    transform: scale(1.2, 1.2);
+
+}
+
+/* -----------------------------------NEW SECTION STARTS FROM HERE------------------------------------------------ */
+
+#new {
+    box-shadow: 1px 1px 100px rgba(149, 24, 149, 0.729);
+}
+
+
+
+
+#new .one img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+
+#new .one .details {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+
+}
+
+#new .one:hover .details {
+    cursor: pointer;
+    background-color: rgba(227, 105, 243, 0.3);
+
+}
+
+#new .one .details button {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    color: #070107;
+    background: none;
+    text-transform: uppercase;
+    border-bottom: 3px solid #2a2a2a;
+    padding: 2.5px;
+    transform: translateY(90px);
+    transition: 0.3s ease;
+}
+
+
+#new .one .details button:hover {
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+
+
+#new .one:nth-child(1) .details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+
+#new .one:nth-child(2) .details {
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#new .one:nth-child(3) .details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+
+}
+
+
+
+element.style {}
+
+.newh2 {
+    margin-top: 95px !important;
+}
+
+.newh2-2 {
+    margin-top: -100px;
+}
+
+.newh2-2btn {
+    margin-top: -2%;
+    margin-left: 7%;
+}
+
+.newh2-3 {
+    margin-top: 50px;
+    margin-right: 4%;
+}
+
+.neckbtn {
+    margin-top: 60px;
+}
+
+
+
+/* ------------------FEATURES SECTION STARTS FROM HERE--------------------------------------------- */
+
+
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+}
+
+
+.product img {
+    transition: 0.3s all;
+}
+
+.product:hover img {
+    opacity: 0.8;
+}
+
+.product .buy-btn {
+    background: rgb(195, 30, 195);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.p-name {
+    color: black;
+}
+
+
+/* ---------------------PARALLAX BANNER STARTS FROM HERE------------------------------- */
+
+
+.rakulbtn {
+    background-color: black;
+}
+
+
+.rakulbtn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.rakulbtn:hover {
+    background-image: linear-gradient(to left, rgb(189, 48, 249), rgb(137, 19, 137));
+}
+
+
+#banner {
+    background-image: url("./images/img/Rakul_dark.png");
+    width: 100%;
+    height: 100vh;
+    margin-top: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 15px center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.708);
+
+
+}
+
+.paralax {
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+#banner h4 {
+    color: rgb(6, 19, 29);
+}
+
+
+.strikee{
+    text-decoration:line-through;
+    color:grey;
+}
+
+
+
+
+
+
+/* ---------------COSMETICS SECTION STARTS FROM  HERE-------------------------- */
+
+#cosmetics img {
+    width: 150px;
+    transition: 0.3s ease;
+}
+
+#cosmetics img:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+}
+
+
+#cosmetics {
+
+    background-image: linear-gradient(to top, rgb(7, 3, 7), rgba(15, 9, 21, 0.935), rgb(80, 27, 72));
+    box-shadow: 4px 4px 30px rgba(185, 6, 185, 0.721);
+
+}
+
+
+#cosmetics h3 {
+    color: white;
+    ;
+}
+
+#cosmetics h4 {
+    color: white;
+    ;
+}
+
+#cosmetics h5 {
+    color: white;
+    ;
+}
+
+#cosmetics p {
+    color: #d8d8d8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------FOOTER SECTION STARTS FROM HERE---------------------------------------- */
+
+
+.needlogo {
+    transition: 0.3s ease;
+}
+
+.needlogo:hover {
+    transform: scale(1.2, 1.2);
+
+}
+
+footer {
+    background-color: #110e11;
+}
+
+footer h5 {
+    color: white;
+}
+
+
+footer li {
+    padding-bottom: 4px;
+
+}
+
+footer li a {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+footer li a:hover {
+    color: #d8d8d8;
+    text-decoration: wavy;
+}
+
+
+footer p {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+
+.media {
+    margin-left: 5%;
+}
+
+
+.media i {
+    font-size: 30px;
+    color: rgb(171, 7, 171);
+    padding-left: 17px;
+    transition: 0.4s ease;
+}
+
+.media i:hover {
+    color: rgb(130, 61, 250);
+    transform: rotate(10deg);
+}
+
+footer span {
+    color: white;
+    transition: 0.3s ease;
+}
+
+footer span:hover {
+    color: rgb(238, 67, 224);
+}
+
+
+
+/*--------------------- pay section */
+.pay img {
+    margin-right: 3%;
+
+}
+
+.payments_1 {
+    transition: 0.3s ease;
+}
+
+.payments_1:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.payments_2 {
+    transition: 0.3s ease;
+}
+
+.payments_2:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.payments_3 {
+    transition: 0.3s ease;
+}
+
+.payments_3:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0.5px 0.5px 1px 2px rgba(213, 16, 213, 0.571);
+}
+
+.payments_4 {
+    transition: 0.3s;
+}
+
+.payments_4:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+
+
+
+
+/* NEW WINDOW CSS */
+/* BLOGS SECTION STARTS FROM HERE....................................................... */
+
+#blog-container .post .post-img {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+#blog-container .post img {
+    transition: 0.5s ease;
+}
+
+
+
+
+
+#blog-container .post:hover img {
+    transform: scale(1.3) rotate(-10deg);
+    opacity: 0.9;
+}
+
+
+#blog-container .post h3 {
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+#blog-container .post:hover h3 {
+    color: rgb(240, 37, 240);
+}
+
+
+#classypurple {
+    background-image: url("./images/img/blog/blog_banner.png");
+    width: 100%;
+    height: 100vh;
+    margin-top: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 15px center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px  12px rgba(156, 11, 154, 0.785);
+
+
+}
+
+
+/* NEW WINDOW CSS */
+/* ----------------------------------CONTACT.HTML STARTS FROM HERE----------------------------------------- */
+
+
+.signintble{
+
+    margin-top: 60px ;
+}
+
+
+.summit{
+    background-color: black;
+}
+
+.summit:hover{
+    background-color: #831e9c;
+}
+
+
+.address{
+    margin-top: 5% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NEW WINDOW CSS */
+/* -------------------------CART SECTION STARTS FROM HERE-------------------------------------------------*/
+
+
+#cart-container{
+    overflow-x:auto;
+}
+
+#cart-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+
+#cart-container table thead {
+    font-weight: 700;
+}
+
+
+
+#cart-container table thead td {
+    background: rgba(253, 110, 253, 0.374);
+    color: #020000;
+    border: none;
+    padding: 6px 0;
+}
+
+
+td h5 {
+    color: #020000;
+    font-weight: 500;
+
+}
+
+
+#cart-container table td {
+    border: 1px solid #a49e9e;
+    text-align: center;
+}
+
+#cart-container table td:nth-child(1) {
+    width: 100px;
+}
+
+
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3) {
+    width: 200px;
+}
+
+
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6) {
+    width: 170px;
+}
+
+#cart-container table tbody img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+#cart-container table tbody i{
+    color:black;
+}
+
+#cart-container table tbody i:hover{
+    color: #831e9c;
+}
+
+
+
+
+#cart-bottom .coupon>div{
+    border:1px solid rgb(137, 134, 134);
+}
+
+#cart-bottom .coupon>div,
+#cart-bottom .total>div{
+    border:1px solid grey;
+}
+
+#cart-bottom .coupon h5,
+#cart-bottom .total h5{
+    background: rgb(119, 11, 213);
+    color: #fffefe;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+#cart-bottom .coupon p,
+#cart-bottom .coupon input{
+    padding: 0 12px;
+}
+
+#cart-bottom .coupon input{
+    height: 39px;
+    margin: 0 0 20px 12px;
+}
+
+
+
+
+#cart-bottom .total div>div{
+    padding: 0 12px;
+}
+
+
+#cart-bottom .total h6{
+    color:black;
+    font-weight: 400;
+}
+
+
+.second-hr{
+    background: #999;
+    width:100%;
+    height:1px;
+}
+
+
+#cart-bottom .total div>button{
+    margin:0 12px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------MEDIA QUERIES SECTION---------------------------------- */
+
+/* Landscape mobiles and etc___________________________________________________________________ */
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .textofhome {
+        margin-top: 60% !important;
+        margin-left: 15%;
+
+    }
+
+    #home span {
+        color: rgb(255, 250, 250);
+    }
+
+    #home h1 {
+        color: rgb(214, 19, 245);
+    }
+
+
+    .navbar ul li {
+        margin-left: 80%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+
+    #banner {
+        background-position: -100vh;
+    }
+
+
+    #banner h4 {
+        color: rgb(251, 248, 251);
+    }
+
+
+    #banner h1 {
+        color: rgb(249, 247, 249);
+    }
+
+
+    .hrline {
+        width: 400px;
+        height: 0.2px;
+        color: rgba(153, 11, 178, 0.699) !important;
+    }
+
+    #cosmetics {
+
+        background-image: linear-gradient(to top, rgb(7, 3, 7), rgba(15, 9, 21, 0.935), rgb(80, 27, 72));
+        height: 1300px;
+    }
+
+
+
+
+}
+
+
+
+
+/* laptops and mini screens___________________________________________________ */
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    .textofhome {
+        margin-top: 45%;
+        margin-left: 10%;
+
+    }
+
+    /* for brand logos adjustment */
+
+    #brand img {
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    .navbar ul li {
+        margin-left: 80%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+
+
+    .hrline {
+        display: none;
+    }
+
+
+    #cosmetics {
+
+        background-image: linear-gradient(to top, rgb(7, 3, 7), rgba(15, 9, 21, 0.935), rgb(80, 27, 72));
+        height: 700px;
+    }
+
+
+}
+
+
+
+
+/* laptops and similar sizes______________________________________________________*/
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .textofhome {
+        margin-top: 25%;
+        margin-left: 10%;
+
+    }
+
+    #home span {
+        color: rgb(214, 19, 250);
+    }
+
+    #home h1 {
+        color: #fff;
+    }
+
+
+    .hrline {
+        display: none;
+    }
+
+    #cosmetics {
+
+        background-image: linear-gradient(to top, rgb(7, 3, 7), rgba(15, 9, 21, 0.935), rgb(80, 27, 72));
+        height: 600px;
+    }
+
+}
+
+
+
+/* Laptops and large devices_______________________________________________________________ */
+
+@media only screen and (min-width:993px) and (max-width:1400px) {
+
+    .textofhome {
+        margin-top: 20%;
+        margin-left: 5%;
+
+    }
+
+    .hrline {
+        display: none;
+    }
+
+    #cosmetics {
+
+        background-image: linear-gradient(to top, rgb(7, 3, 7), rgba(15, 9, 21, 0.935), rgb(80, 27, 72));
+        height: 500px;
+    }
+
+}

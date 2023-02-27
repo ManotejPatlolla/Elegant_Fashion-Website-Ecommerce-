@@ -1,0 +1,1054 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="./images/img/flavicon.png">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Elegant-Shopping for india Mobile and Pc </title>
+
+
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+
+
+        /* cart-page starts here */
+        #card-cart-wrapper {
+            overflow-x: auto;
+        }
+
+
+        #card-cart-wrapper {
+            padding: 2rem;
+            margin: 1rem;
+        }
+
+        #cart table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            white-space: nowrap;
+        }
+
+        #card-cart-wrapper table img {
+            width: 100px;
+        }
+
+        #card-cart-wrapper table td {
+            width: 100px;
+            text-align: center;
+        }
+
+        #card-cart-wrapper table thead {
+            border: 1px solid #6b6963;
+            border-left: none;
+            border-right: none;
+        }
+
+        #card-cart-wrapper table thead td {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 13px;
+            padding: 18px 0;
+        }
+
+        #card-cart-wrapper table tbody tr td {
+            padding-top: 15px;
+        }
+
+        #card-cart-wrapper table tbody td {
+            font-size: 13px;
+        }
+
+        #card-cart-wrapper table td .normal {
+            background-color: rgb(255, 72, 72);
+            border: 1px solid black;
+            transition: 0.3s ease;
+        }
+
+        #card-cart-wrapper table td .normal:hover {
+            background-color: rgb(6, 96, 126);
+            color: black;
+        }
+
+
+
+        #card-cart-wrapper>table:nth-child(1)>tbody>tr>td:nth-child(5)>a>i {
+            margin-left: -206%;
+        }
+
+        #card-cart-wrapper>table>tbody>tr>td:nth-child(6)>a>i {
+            margin-left: -422px;
+        }
+
+
+        /* bill-details starts here */
+
+
+        #coupon\ >div {
+            margin-left: 10%;
+        }
+
+
+
+        #cart-add\ container {
+            margin-top: 5%;
+        }
+
+
+        #cart-add {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        #coupon {
+            position: absolute !important;
+            width: 50%;
+            margin-bottom: 30px;
+        }
+
+        #coupon\  {
+            margin-left: 98px;
+        }
+
+
+
+
+        #coupon\ >div>input[type=text] {
+            width: 235px;
+            height: 40px;
+            margin-left: -130px;
+            margin-top: 7px;
+        }
+
+
+        #card-cart-wrapper>table>tbody>tr>td:nth-child(6) {
+            margin-right: -20px;
+        }
+
+
+        #coupon h3,
+        #subtotal h3 {
+            padding-bottom: 15px;
+
+        }
+
+        #coupon input {
+            padding: 10px 20px;
+            outline: none;
+            width: 60%;
+            margin-right: 10px;
+            border: 1px solid #e2e9e1;
+        }
+
+        #coupon button,
+        #subtotal button {
+            padding: 12px 20px;
+            transition: 0.3s ease;
+        }
+
+        #coupon button:hover,
+        #subtotal button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #subtotal {
+            width: 50%;
+            margin-left: 45%;
+            margin-bottom: -5px;
+            border: 1px solid #6b6963;
+            padding: 30px;
+            margin-top: -83px;
+        }
+
+        #subtotal table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #subtotal table td {
+            width: 50%;
+            border: 1px solid #e2e9e1;
+            padding: 10px;
+            font-size: 13px;
+        }
+
+        /* payusing section */
+
+        .payusing img {
+            width: 50px;
+            margin: 0.5rem;
+        }
+
+
+        .text {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.7;
+            border-radius: 4px;
+            border-style: none;
+            outline-color: rgba(247, 192, 255, 0.412);
+            box-shadow: 1px 1px 4px rgb(63, 63, 63);
+            width: 217px;
+            height: 24px;
+            margin-bottom: 8px;
+        }
+
+        .text1 {
+            margin-left: 15px;
+        }
+
+        .text2 {
+            margin-left: 50px;
+        }
+
+
+        .text3 {
+            margin-left: 40px;
+        }
+
+
+        .text4 {
+            margin-left: 63px;
+        }
+
+
+
+        .text5 {
+            margin-left: 52px;
+            height: 24px;
+        }
+
+
+        .text6 {
+            margin-left: 22px;
+            height: 24px;
+        }
+
+        .text7 {
+
+            margin-left: 8px;
+            -webkit-appearance: none;
+        }
+
+        .text8 {
+            margin-left: 19px;
+        }
+
+        .text9 {
+            margin-left: 24px;
+        }
+
+        .text10 {
+            margin-left: 56px;
+            -webkit-appearance: none;
+
+        }
+
+        .proceedbtn {
+            position:absolute;
+            margin-top: -25px;
+            margin-left: 192px;
+            color: #ffffff;
+            background-color: #000000;
+            font-size: 10px;
+            border: 1px solid #2d63c8;
+            border-radius: 18px;
+            padding: 10px 20px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 1px 1px 10px rgb(41, 41, 41);
+
+        }
+
+       
+        .proceedbtn:hover {
+                margin-top: -25px;
+                margin-left: 192px;
+                color: #ffffff;
+                background-color: #3f1b4e;
+                font-size: 10px;
+                border: 1px solid #2d63c8;
+                border-radius: 18px;
+                padding: 10px 20px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                transition: 0.3s ease;
+                box-shadow: 1px 1px 10px rgb(41 41 41);
+                z-index: 9999;
+            }
+
+        #headingstble {
+            margin-left: 10%;
+        }
+
+        #headingstble tr td {
+            margin-left: 20%;
+        }
+
+        ol {
+            margin-left: -19%;
+            list-style-type: none;
+            display: flex;
+        }
+
+        ol li {
+            margin-left: 13%;
+            font-weight: 700;
+        }
+
+
+        /* MODAL BOOTSRAP CUSTOMIZED FORM */
+
+        .form-group {
+            padding: -1rem;
+            padding-top: 1rem;
+            margin-bottom: -4rem;
+            margin-left: -83%;
+            width: 365px;
+            height: 516px;
+            background-image: linear-gradient(to top, rgb(224, 221, 221), rgb(161, 47, 187));
+            box-shadow: 0px 6px 22px #9d279d;
+            /* margin-top: -5rem; */
+        }
+
+
+        .modal-header {
+            display: -ms-flexbox;
+            display: none;
+        }
+
+        .modal-content {
+            position: relative;
+            display: -ms-flexbox;
+            display: contents;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            width: 65%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0, 0, 0, .2);
+            border-radius: 0.3rem;
+            outline: 0;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #8e56f6;
+            border-color: #8e56f6;
+            width: 210px;
+            height: 40px;
+            transition: 0.1s ease;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+
+        .btn-primary:hover {
+            width: 210px;
+            height: 40px;
+            color: #fff;
+            background-color: #791abd;
+            border-color: #791abd !important;
+        }
+
+
+
+
+
+        @media only screen and (min-width:200px) and (max-width:576px) {
+
+            .farm {
+
+                margin-left: 5% !important;
+            }
+
+            .btn-primary {
+                color: #fff;
+                background-color: #8e56f6;
+                border-color: #8e56f6;
+                width: 150px;
+                height: 30px;
+                transition: 0.1s ease;
+                font-weight: 600;
+                font-size: 10px;
+            }
+
+
+            .proceedbtn {
+                margin-top: -21px;
+                margin-left: 153px;
+                color: #ffffff;
+                background-color: #000000;
+                font-size: 14px;
+                border: 1px solid #2d63c8;
+                border-radius: 18px;
+                padding: 5px 18px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                transition: 0.3s ease;
+                box-shadow: 1px 1px 10px rgb(41 41 41);
+                z-index: 9999;
+            }
+
+            
+            .proceedbtn:hover {
+                margin-top: -21px;
+                margin-left: 153px;
+                color: #ffffff;
+                background-color: #000000;
+                font-size: 14px;
+                border: 1px solid #2d63c8;
+                border-radius: 18px;
+                padding: 5px 18px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                transition: 0.3s ease;
+                box-shadow: 1px 1px 10px rgb(41 41 41);
+                z-index: 9999;
+            }
+
+          
+
+
+            .form-group {
+                padding: -1rem;
+                padding-top: 1rem;
+                margin-bottom: -4rem;
+                margin-left: 0%;
+                margin-top: 35%;
+                width: 365px;
+                height: 516px;
+                background-image: linear-gradient(to top, rgb(224, 221, 221), rgb(161, 47, 187));
+                box-shadow: 0px 6px 22px #9d279d;
+                /* margin-top: -5rem; */
+            }
+
+
+
+
+
+
+
+
+
+
+
+            #card-cart-wrapper {
+                display: inline;
+                overflow: hidden;
+            }
+
+            #card-cart-wrapper table img {
+                width: 61px;
+                margin-left: -56%;
+            }
+
+            td h5 {
+                color: #020000;
+                font-weight: 300;
+                font-size: 13px;
+            }
+
+
+
+            #card-cart-wrapper>table>tbody>tr>td:nth-child(6)>a>i {
+                margin-left: 80px;
+
+
+            }
+
+            .bot {
+                padding: 4px 9px;
+                margin-left: 240px !important;
+            }
+
+
+
+            ol {
+
+                margin-left: -11%;
+                list-style-type: none;
+                display: flex;
+            }
+
+            ol li {
+                margin-left: 7%;
+                font-weight: 700;
+            }
+
+            .priceh5 {
+                margin-top: 53%;
+            }
+
+
+
+            #coupon\  {
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+
+
+
+
+            #coupon\ >div>input[type=text] {
+                width: 135px;
+                height: 30px;
+                margin-left: -46px;
+                margin-top: 7px;
+                font-size: x-small;
+
+            }
+
+            .normal {
+                width: 60px;
+                height: 30px;
+                padding: 3px 3px;
+                margin-left: 0%;
+
+            }
+
+
+            #subtotal {
+                width: 50%;
+                margin-left: 55%;
+                margin-bottom: -5px;
+                border: 1px solid #6b6963;
+                padding: 20px;
+                margin-top: -83px;
+            }
+
+            #subtotal button {
+                width: 150px;
+                height: 50px;
+
+                padding: 6px 13px;
+                transition: 0.3s ease;
+            }
+
+            #cart-add {
+                margin-top: 100px;
+            }
+
+
+            #card-cart-wrapper {
+                padding: 1rem;
+                margin: 0.5rem;
+            }
+
+
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+    <!-- NAVIGATION BAR STARTS FROM HERE -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-1 fixed-top">
+        <img src="./images/img/website_logo.png" alt="" width="75px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">@Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">Blogs</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <i class="fas fa-search"></i>
+                </li>
+
+
+                <li class="nav-item">
+                    <i class="fas fa-shopping-bag active"></i>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+
+    <section id="blog-home" class="pt-5 mt-5 container">
+        <h2 class="font-weight-bold py-5">Shopping Cart</h2>
+        <hr>
+
+        <ol class="titles">
+            <li>Product</li>
+            <li>Name</li>
+            <li>Price</li>
+            <li>Quantity</li>
+            <li>Remove</li>
+        </ol>
+    </section>
+
+
+    <div id="card-cart-wrapper">
+
+
+
+
+
+    </div>
+
+
+    <!-- bill-details starts here -->
+    <section id="cart-add container" class="section-p1">
+
+        <div id="coupon ">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Sub-total</td>
+                    <td>$<span id="total-price"></span></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Final Price</strong></td>
+                    <td><strong>$<span id="final-price"></span></strong></td>
+                </tr>
+            </table>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                PROCEED TO CHECKOUT
+            </button>
+
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="faram" class="farm col-lg-4  mx-auto my-4 py-4">
+                        <div class="row  payusing  form-group">
+
+                            <div class="col">
+
+
+                                Full Name:
+                                <input class="text text1" type="text" placeholder="  Enter Your Name"><br>
+                                Email:
+                                <input class="text text2" type="text" placeholder="  Enter Your E-mail"><br>
+                                Adress:
+                                <input class="text text3" type="text" placeholder="  Enter Your Adress"><br>
+                                City:
+                                <input class="text text4" type="text" placeholder="  Enter Your City"><br>
+
+
+
+
+
+
+
+                                <div id="zip">
+                                    <label>
+                                        State:
+                                        <select class=" text text5">
+                                            <option>Choose State</option>
+                                            <option>Andhra Pradesh</option>
+                                            <option>Telangana</option>
+                                            <option>Arunachal Pradesh</option>
+                                            <option>Assam</option>
+                                            <option>Bihar</option>
+                                            <option>Chhattisgarh</option>
+                                            <option>Goa</option>
+                                            <option>Gujarat</option>
+                                        </select>
+                                    </label>
+                                    <label>
+                                        Pin Code:
+                                        <input class="text text6" type="number" placeholder="  Pin">
+                                    </label>
+                                </div>
+
+
+                                <h4>PAYMENT USING </h4>
+
+                                Card Num:
+                                <input class="text text7" type="number" placeholder="  Enter Your Card Number"><br>
+                                Exp Mnth:
+                                <input class="text text8" type="date" placeholder="  Enter Month"><br>
+                                CVV:
+                                <input class="text text10" type="number" placeholder="  CVV">
+                                <label>
+                                    Exp Year:
+                                    <select class="text text9">
+                                        <option>Choose Year</option>
+                                        <option>2015</option>
+                                        <option>2016</option>
+                                        <option>2017</option>
+                                        <option>2018</option>
+                                        <option>2019</option>
+                                        <option>2020</option>
+                                        <option>2021</option>
+                                        <option>2022</option>
+                                        <option>2023</option>
+                                    </select>
+                                </label><br>
+
+                                <h4>OR PAY USING</h4>
+                                <img src="./images/img/payments/payment_1.png " alt="">
+                                <img src="./images/img/payments/payment_2.png " alt="">
+                                <img src="./images/img/payments/payment_3.png " alt="">
+                                <img src="./images/img/payments/payment_4.png" alt="">
+                            </div>
+
+
+                        </div>
+
+                    </form>
+
+                    <button onclick="window.location.href='thankyou.html';"  class="proceedbtn">Proceed</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fas fa-trash-alt"></i> </a></td>
+                    <td><img src="./images/img/shoes/1.jpg" alt=""> </td>
+                    <td>
+                        <h5>Elegant-Running Shoes</h5>
+                    </td>
+                    <td>
+                        <h5>$31.00</h5>
+                    </td>
+                    <td><input class="w-25 pl-1" value="1" min="1" type="number"> </td>
+                    <td>
+                        <h5>$31.00</h5>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table> -->
+
+
+
+    <!-- <section id="cart-bottom" class="container mt-5">
+            <div class="row">
+
+                <div class="coupon col-lg-6 col-md-6 col-12 mb-3">
+                    <div>
+                        <h5>COUPON</h5>
+                        <p>enter you coupon code for amazing discounts</p>
+                        <input type="text" placeholder="Coupon Code">
+                        <button class="mr-auto ml-3 mb-3">APPLY</button>
+                    </div>
+
+                </div>
+
+
+                <div class="total col-lg-6 col-md-6 col-12">
+                    <div>
+                        <h5>CART TOTAL</h5>
+
+                        <div claa="d-flex justify-content-between">
+                            <h6>Subtotal</h6>
+                            <p>$111.00</p>
+                        </div>
+
+                        <div claa="d-flex justify-content-between">
+                            <h6>Shipping</h6>
+                            <p>$111.00</p>
+                        </div>
+
+                        <hr class="second-hr">
+
+                        <div claa="d-flex justify-content-between">
+                            <h6>Total</h6>
+                            <p>$111.00</p>
+                        </div>
+
+                        <button class="ml-auto">CONTINUE TO CHECKOUT</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </section>
+ -->
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER SECTION STARTS FROM HERE---------------------------------------------------- -->
+
+
+    <footer class="mt-5 py-5">
+        <div class="row mx-auto container">
+
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12 col-12">
+                <a href="#"><img class="needlogo pb-2" src="./images/img/need_logo.png" width="60px" alt=""></a>
+                <p>#1 E-commerce site for everyone who just needs the best quality. Specialized in violet and purple
+                    combinations for men and women along with regular dressing <br>
+                    <hr><span> #IsallyouNeed</span> </p>
+            </div>
+
+
+
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12 col-12">
+                <h5 class="pb-2">Featured</h5>
+
+                <ul class="text-uppercase list-unstyled">
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Boys</a></li>
+                    <li><a href="#">Girls</a></li>
+                    <li><a href="#">Latest Arrivals</a></li>
+                    <li><a href="#">Seasonal</a></li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12 col-12">
+                <h5 class="pb-2">Contact us</h5>
+
+                <div>
+                    <h6 class="text-uppercase"></h6>
+                    <p>Road no 16, BANJARA HILLS,HYD</p>
+                </div>
+
+                <div>
+                    <h6 class="text-uppercase"></h6>
+                    <p>(+91)7223322337</p>
+                </div>
+
+                <div>
+                    <h6 class="text-uppercase"></h6>
+                    <p>Elegantshopping@gmail.com</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12 col-12">
+                <h5 class="pb-2">Follow on Insta</h5>
+
+                <div class="row">
+                    <img class="img-fluid w-25  m-2" src="./images/img/insta/1.png" alt="">
+                    <img class="img-fluid w-25  m-2" src="./images/img/insta/2.png" alt="">
+                    <img class="img-fluid w-25  m-2" src="./images/img/insta/3.png" alt="">
+                    <img class="img-fluid w-25  m-2" src="./images/img/insta/4.png" alt="">
+                    <img class="img-fluid w-25  m-2" src="./images/img/insta/5.png" alt="">
+                    <img class="img-fluid w-25  m-2" src="./images/img/insta/6.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
+
+                <div class="pay col-lg-3 col-md-6 col-12">
+                    <img class="payments_1" src="./images/img/payments/payment_1.png" width="50px" alt="">
+                    <img class="payments_2" src="./images/img/payments/payment_3.png" width="50px" alt="">
+                    <img class="payments_3" src="./images/img/payments/payment_2.png" width="50px" alt="">
+                    <img class="payments_4" src="./images/img/payments/payment_4.png" width="50px" alt="">
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-12 text-nowrap">
+                    <p>Elegant E-commerce © 2022. All rights reserved</p>
+                </div>
+
+                <div class=" media  col-lg-3 col-md-6 col-12">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPT LINKS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <script src="./Javascript/script.js"></script>
+    <script src="./Javascript/cart.js"></script>
+
+</body>
+
+</html>

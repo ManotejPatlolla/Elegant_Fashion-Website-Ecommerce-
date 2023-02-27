@@ -883,6 +883,17 @@ td h5 {
     }
 
 
+    #navbarSupportedContent > ul > li.nav-item.dropdown.show > div{
+        margin-left: -184%;
+        background-color: #d063eb;
+        color:white;
+    }
+
+    #navbarSupportedContent > ul > li.nav-item.dropdown.show > div>a{
+        color:white;
+    }
+
+
     #banner {
         background-position: -100vh;
     }

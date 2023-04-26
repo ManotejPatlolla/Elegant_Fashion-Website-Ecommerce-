@@ -1,6 +1,6 @@
 # Elegant E-commerce 
 
-A Mutlipaged E-commerce Website.
+A Mutlipaged responsive E-commerce Website project.
 
 # Preview
 ![elegant_1](https://user-images.githubusercontent.com/113198704/234649956-20895b63-a8d0-4316-88d3-6155f5ef2438.png)

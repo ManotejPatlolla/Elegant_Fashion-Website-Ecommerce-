@@ -2,6 +2,15 @@
 
 A Mutlipaged E-commerce Website.
 
+# Preview
+![elegant_1](https://user-images.githubusercontent.com/113198704/234649956-20895b63-a8d0-4316-88d3-6155f5ef2438.png)
+![elegant_3](https://user-images.githubusercontent.com/113198704/234650332-caf0ee5f-7bb6-48bc-8ab8-317451e14692.png)
+![elegant_5](https://user-images.githubusercontent.com/113198704/234650374-118cce7c-f3e9-42e6-b875-b430c9a83ae8.png)
+![elegant_4](https://user-images.githubusercontent.com/113198704/234650394-e833410d-fe98-4a7a-a00a-5dff875979ed.png)
+![elegant_7](https://user-images.githubusercontent.com/113198704/234650475-10012297-0d29-463b-98ff-b18a2fe7597d.png)
+![elegant_6](https://user-images.githubusercontent.com/113198704/234650488-fbd91f3f-8f3e-4a25-951e-95a7b1802c2d.png)
+![elegant_11](https://user-images.githubusercontent.com/113198704/234651586-ddf7f650-0019-4023-8807-8c57947550b0.png)
+![elegant_10](https://user-images.githubusercontent.com/113198704/234651606-47112326-269a-4bf0-94b2-694c8fa6326e.png)
 
 
 

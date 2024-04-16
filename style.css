@@ -92,6 +92,12 @@ button:hover {
 
 /* ------------------------------------NAVBAR STARTS FROM HERE------------------------------------------------------------------*/
 
+
+.icon{
+    margin-left: 30px;
+}
+
+
 .navbar {
     background-color: rgb(24, 24, 24) !important;
     font-size: 16px;
@@ -207,13 +213,13 @@ button:hover {
 #home {
     background-image: url("./images/img/karosel_4.png");
     width: 100%;
-    height: 100vh;
+    height: 98vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top 40px center;
     display: flex;
     align-items: center;
-    box-shadow: 6px 6px 90px rgb(4, 0, 6);
+    box-shadow: 2px 1px 10px rgb(4, 0, 6);
 
 
 }
@@ -250,10 +256,8 @@ button:hover {
 /* -----------------------------------NEW SECTION STARTS FROM HERE------------------------------------------------ */
 
 #new {
-    box-shadow: 1px 1px 100px rgba(149, 24, 149, 0.729);
+    box-shadow: 1px 2px 20px rgba(229, 60, 255, 0.375);
 }
-
-
 
 
 #new .one img {
@@ -469,8 +473,8 @@ element.style {}
 
 #cosmetics {
 
-    background-image: linear-gradient(to top, rgb(7, 3, 7), rgba(15, 9, 21, 0.935), rgb(80, 27, 72));
-    box-shadow: 4px 4px 30px rgba(185, 6, 185, 0.721);
+    background-image: linear-gradient(to top, rgb(7, 3, 7), rgba(15, 9, 21, 0.935), rgb(59, 11, 52));
+    box-shadow: 4px 1px 10px rgba(185, 6, 185, 0.721);
 
 }
 
